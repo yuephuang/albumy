@@ -2,7 +2,7 @@ from wtforms import StringField, SelectField, BooleanField, SubmitField
 from wtforms import ValidationError
 from wtforms.validators import DataRequired, Length, Email
 
-from apps.form.user import EditProfileForm
+from form.user import EditProfileForm
 from domain.table import User, Role
 
 
